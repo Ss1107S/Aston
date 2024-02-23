@@ -61,7 +61,7 @@ class ArrayListTest {
     }
     @Test
     void deleteRangeTest() {
-        myArray.add(0, "Устала");
+        myArray.add(0, "Устала"); // ахах, понял, дз тебя утомило :D
         myArray.add(2, "Устала");
         myArray.add(5, "Устала");
         myArray.deleteRange(1, 2);
